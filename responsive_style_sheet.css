@@ -1,0 +1,319 @@
+@media (max-width: 490px) {
+
+    #upload-icon img{
+        margin: 0px;
+    }
+    #video-box {
+        width: 360px;
+    }
+    #video-container {
+        padding: 0 20px;
+    }
+
+    .upload-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+        flex-direction: column; /* Change to a single column layout on smaller screens */
+    }
+
+    #upload-button {
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    #inside-text-box{
+        margin-right: 0;
+    }
+
+    .hero_tag{
+        text-align: center;
+        margin-top: 35px;
+    }
+
+    .content-text{
+        margin-top: 25px;
+    }
+    
+    h1 {
+        margin-top: 10px;
+    }
+
+    .generate-button-container{
+        margin-top: 10px;
+    }
+
+    #generate-box{
+        margin-top: 0px;
+    }
+
+    .inside-text {
+        margin-right: 0;
+        text-align: center; /* Center-align text in the single column layout */
+    }
+
+    .limit-text{
+        margin-right: 0;
+        text-align: center; /* Center-align text in the single column layout */
+
+    }
+}
+
+@media (max-width: 390px) {
+
+    .upload-box {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column; /* Change to a single column layout on smaller screens */
+    }
+
+    #upload-icon img{
+        margin: 0px;
+    }
+
+    #upload-button {
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+    
+    #inside-text-box{
+        margin-right: 0;
+    }
+
+    .hero_tag{
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .header{
+        padding-bottom: 0px;
+    }
+
+    .generate-button-container{
+        margin-top: 10px;
+    }
+
+    #generate-box{
+        margin-top: 0px;
+    }
+    
+    h1 {
+        margin-top: 0px;
+    }
+
+    .content-text{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+
+    .inside-text {
+        margin-right: 0;
+        margin-top: 0px;
+        text-align: center; /* Center-align text in the single column layout */
+    }
+
+    .limit-text{
+        margin-right: 0;
+        margin-bottom: 0px;
+        text-align: center; /* Center-align text in the single column layout */
+
+    }
+}
+
+@media (max-width: 279px) {
+    #generate-icon{
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 500px) {
+    #modal_input {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-direction: column;
+    }
+    #emailInput {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+    }
+    #submitButton {
+        width: fit-content;
+        border: 2px solid #535050;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 0.5rem;
+        background-color: transparent;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+}
+@media (max-width: 445px) {
+    #modal_input {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+    #emailInput {
+        width: 100%;
+        border: none;
+        background-color: transparent;
+        font-size: 0.8rem;
+    }
+    #submitButton {
+        font-size: 0.8rem;
+    }
+    #modal_text_one {
+        font-size: calc(0.725rem + .9vw);
+        letter-spacing: 0.6rem;
+        font-weight: 600;
+    }
+    .modal_text {
+        font-size: 0.7rem;
+        margin-top: 0.6rem;
+        font-weight: 500;
+        color: #535050;
+    }
+    .modal_content {
+        gap: 1.8rem;
+    }
+}
+@media (max-width: 370px) {
+    #modal_text_one {
+        font-size: calc(0.650rem + .6vw);
+        letter-spacing: 0.4rem;
+        font-weight: 600;
+    }
+    .modal_text {
+        font-size: 0.55rem;
+        margin-top: 0.6rem;
+        font-weight: 500;
+        color: #535050;
+    }
+    .modal_content {
+        gap: 1.5rem;
+        padding: 5px 5px;
+    }
+    #modal_input {
+        gap: 1.2rem;
+    }
+    #emailInput {
+        font-size: 0.5rem;
+        font-weight: 600;
+    }
+   #submitButton {
+        font-size: 0.5rem;
+   }
+}
+@media (max-width: 1000px) {
+    .content {
+        padding: 0 100px;
+    }
+}
+@media (max-width: 910px) {
+    .content {
+        padding: 0 80px;
+    }
+}
+@media (max-width: 820px) {
+    .content {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 720px) {
+    .ug-box {
+        gap: 30px;
+    }
+    .content {
+        padding: 0 35px;
+    }
+}
+@media (max-width: 704px) {
+    .ug-box {
+        flex-direction: column;
+    }
+    #video-box {
+        width: 425px;
+    }
+}
+@media (max-width: 600px) {
+    .audio_elements {
+        width: 26.5rem;
+    }
+    #album-cover img {
+        width: 4.5em;
+        height: 4.5em;
+    }
+    #player-box {
+        width: 55%;
+    }
+    #top-layer {
+        width: 20rem;
+    }
+    .playback-speed-icon {
+        width: 24px;
+    }
+    .backward-icon {
+        width: 22px;
+    }
+}
+@media (max-width: 490px) {
+    .audio_elements {
+        width: 22rem;
+    }
+    #album-cover img {
+        width: 4em;
+        height: 4em;
+    }
+    #top-layer {
+        width: 16rem;
+    }
+    #player-box {
+        width: 50%;
+    }
+    .playback-speed-icon {
+        width: 22px;
+    }
+    .backward-icon {
+        width: 20px;
+    }
+    .play-icon {
+        width: 28px;
+    }
+}
+@media (max-width: 390px) {
+    .audio_elements {
+        width: 18rem;
+    }
+    #top-layer {
+        width: 12rem;
+    }
+    #player-box {
+        width: 45%;
+    }
+    #time-info {
+        font-size: 9px;
+    }
+    .playback-speed-icon {
+        width: 20px;
+    }
+    .backward-icon {
+        width: 18px;
+    }
+    .play-icon {
+        width: 26px;
+    }
+    .audio-controls {
+        gap: 12px;
+    }
+}
